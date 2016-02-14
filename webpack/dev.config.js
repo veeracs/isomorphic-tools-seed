@@ -28,11 +28,6 @@ module.exports = {
     configFile: './.sass-lint.yml'
   },
   module: {
-    preLoaders: [{
-        test: /\.scss$/,
-        loader: 'sasslint',
-        exclude: /node_modules/
-    }],
     loaders: [{
       test: /\.(js|jsx)$/,
       loader: 'babel',
