@@ -9,6 +9,7 @@ var webpackIsomorphicToolsPlugin = new WebpackIsomorphicToolsPlugin(require('./i
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var sassLoaders = [
+    'style-loader',
     'css-loader?sourceMap',
     'sass-loader?includePaths[]=' + bourbon.includePaths
 ];
@@ -55,7 +56,7 @@ module.exports = {
       __DEVELOPMENT__: true,
       __DEVTOOLS__: true  //  <<<--- DISABLE redux-devtools HERE...
     }),
-    webpackIsomorphicToolsPlugin
+    webpackIsomorphicToolsPlugin.development()
     //  webpackIsomorphicToolsPlugin.development()
     // also enter development mode since it's a development webpack configuration 
     // when in development mode, it disables asset caching (and enables asset hot reload).
