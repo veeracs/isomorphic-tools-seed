@@ -1,7 +1,7 @@
 {
-  "name": "@fusion/app-f-vertical",
+  "name": "isomorphic-tools-seed",
   "version": "0.0.0",
-  "description": "Universal seed project for Fusion verticals",
+  "description": "isomorphic-tools-seed",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -16,19 +16,18 @@
     "start-dev": {
       "command": "node ./bin/app-server",
       "env": {
-        "NODE_ENV": "development",
-        "FUSION_APIHOST": "http://v3.fusion.net/wp-json/wp/v2"
+        "NODE_ENV": "development"
       }
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fusioneng/app-f-vertical.git"
+    "url": "git+https://github.com/veeracs/isomorphic-tools-seed.git"
   },
   "bugs": {
-    "url": "https://github.com/fusioneng/app-f-vertical/issues"
+    "url": "https://github.com/veeracs/isomorphic-tools-seed/issues"
   },
-  "homepage": "https://github.com/fusioneng/app-f-vertical#readme",
+  "homepage": "https://github.com/veeracs/isomorphic-tools-seed#readme",
   "dependencies": {
     "babel-polyfill": "6.3.14",
     "chalk": "1.1.1",
@@ -94,12 +93,12 @@
     "node": "4.2.5"
   },
   "author": {
-    "name": "Fusion Digital"
+    "name": "Chandra Veera"
   },
   "contributors": [
     {
       "name": "Chandra Veera",
-      "email": "chandra.veera@fusion.net"
+      "email": "veeracs@icloud.com"
     }
   ],
   "license": "Non-free/Closed-source"
