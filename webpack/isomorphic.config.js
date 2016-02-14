@@ -14,16 +14,13 @@ module.exports = {
 
   assets: {
     images: {
-      extensions: ['jpeg', 'jpg', 'png', 'gif'],
-      parser: WebpackIsomorphicToolsPlugin.url_loader_parser
+      extensions: ['jpeg', 'jpg', 'png', 'gif', 'ico']
     },
     fonts: {
-      extensions: ['woff', 'woff2', 'ttf', 'eot'],
-      parser: WebpackIsomorphicToolsPlugin.url_loader_parser
+      extensions: ['woff', 'woff2', 'ttf', 'eot']
     },
     svg: {
-      extension: 'svg',
-      parser: WebpackIsomorphicToolsPlugin.url_loader_parser
+      extension: 'svg'
     },
     style_modules: {
       extensions: ['css', 'scss'],

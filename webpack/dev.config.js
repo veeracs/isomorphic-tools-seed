@@ -13,17 +13,19 @@ var sassLoaders = [
     'sass-loader?includePaths[]=' + bourbon.includePaths
 ];
 
+var base = path.resolve(__dirname, '..')
+
 module.exports = {
   devtool: 'cheap-source-map',
-  context: __dirname,
-  entry: '../lib/client/index.js',
+  context: base,
+  entry: './lib/client/index.js',
   output: {
-    path: path.resolve(__dirname, '../build/js'),
+    path: path.resolve(base, 'build/js'),
     filename: 'app.js',
     publicPath: '/build/'
   },
   sasslint: {
-    configFile: '../.sass-lint.yml'
+    configFile: './.sass-lint.yml'
   },
   module: {
     preLoaders: [{
