@@ -4,4 +4,4 @@ isomorphic-tools-seed
 npm install && npm run dev
 ```
 
-A universal seed for react projects using webpack.
+A universal seed for react projects using Express and Webpack.
