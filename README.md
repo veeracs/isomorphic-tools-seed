@@ -6,4 +6,4 @@ npm install && npm run dev
 
 A universal seed for react projects.
 
-commit 2
+commit 3
